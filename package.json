@@ -1,23 +1,35 @@
 {
-  "name": "resume-3",
+  "name": "resume-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^7.0.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel js -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaozhi1/resume-3.git"
+    "url": "git+https://github.com/xiaozhi1/resume-webpack.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xiaozhi1/resume-3/issues"
+    "url": "https://github.com/xiaozhi1/resume-webpack/issues"
   },
-  "homepage": "https://github.com/xiaozhi1/resume-3#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0"
-  }
+  "homepage": "https://github.com/xiaozhi1/resume-webpack#readme"
 }
